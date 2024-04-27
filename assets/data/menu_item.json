@@ -1,0 +1,161 @@
+
+{
+  "bestItems": [
+    {
+      "title": "생갈비",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 1",
+      "price": "Price 1"
+    },
+    {
+      "title": "갈비살",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 2",
+      "price": "Price 2"
+    },
+    {
+      "title": "한방 돼지갈비",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 4",
+      "price": "Price 4"
+    },
+    {
+      "title": "한방 돼지갈비 짜글이",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 5",
+      "price": "Price 5"
+    }
+  ],
+  "meatbeefItems": [
+    {
+      "title": "생등심",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 1",
+      "price": "Price 1"
+    },
+    {
+      "title": "특양",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 2",
+      "price": "Price 2"
+    },
+    {
+      "title": "육회",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 3",
+      "price": "Price 3"
+    },
+    {
+      "title": "양념 갈비살",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 4",
+      "price": "Price 4"
+    },
+    {
+      "title": "양념 소갈비",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 5",
+      "price": "Price 5"
+    },
+    {
+      "title": "생 삼겹살",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 6",
+      "price": "Price 6"
+    }
+  ],
+  "riceItems": [
+    {
+      "title": "육개장",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 8",
+      "price": "Price 8"
+    },
+    {
+      "title": "선지 해장국",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 8",
+      "price": "Price 8"
+    },
+    {
+      "title": "갈비탕",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 8",
+      "price": "Price 8"
+    },
+    {
+      "title": "손 비빔냉면",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 8",
+      "price": "Price 8"
+    },
+    {
+      "title": "손 물냉면",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 8",
+      "price": "Price 8"
+    },
+    {
+      "title": "손 회냉면",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 8",
+      "price": "Price 8"
+    },
+    {
+      "title": "비빔국수",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 8",
+      "price": "Price 8"
+    },
+    {
+      "title": "동치미국수",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 8",
+      "price": "Price 8"
+    },
+    {
+      "title": "김치찌개(2인)",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 8",
+      "price": "Price 8"
+    },
+    {
+      "title": "두부찌개(2인)",
+      "imagePath": "assets/img/example.jpg",
+      "detail": "Detail 8",
+      "price": "Price 8"
+    }
+  ],
+  "otherItems": [
+    {
+      "title": "탄산음료",
+      "imagePath": "assets/img/example.jpg",
+      "price": "Price 8"
+    },
+    {
+         "title": "소주",
+         "imagePath": "assets/img/example.jpg",
+         "price": "Price 8"
+   },
+    {
+            "title": "맥주",
+            "imagePath": "assets/img/example.jpg",
+            "price": "Price 8"
+      },
+    {
+            "title": "막걸리",
+            "imagePath": "assets/img/example.jpg",
+            "price": "Price 8"
+      },
+    {
+            "title": "복분자",
+            "imagePath": "assets/img/example.jpg",
+            "price": "Price 8"
+      },
+    {
+            "title": "백세주",
+            "imagePath": "assets/img/example.jpg",
+            "price": "Price 8"
+      }
+  ]
+}
