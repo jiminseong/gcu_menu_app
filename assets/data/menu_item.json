@@ -4,6 +4,7 @@
     {
       "title": "생갈비",
       "imagePath": "assets/img/example.jpg",
+      "gifPath" : "assets/gif/example.gif",
       "detail": "Detail 1",
       "price": "Price 1"
     },

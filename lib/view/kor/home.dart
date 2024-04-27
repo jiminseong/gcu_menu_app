@@ -3,7 +3,6 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:gcu_menu_app/color.dart';
 import 'dart:convert';
-import 'package:card_swiper/card_swiper.dart';
 import 'package:gcu_menu_app/view/kor/menu/bestMenu.dart';
 import 'package:gcu_menu_app/view/kor/menu/meatbeafMenu.dart';
 import 'package:gcu_menu_app/view/kor/menu/otherMenu.dart';
@@ -60,10 +59,9 @@ class Home extends StatelessWidget {
                       Container(
                         margin: const EdgeInsets.only(left: 100),
                         child: MaterialButton(
-                            child: SvgPicture.asset(
-                              "assets/icons/home.svg",
-                              width: 34,
-                            ),
+                            child: const Icon(Icons.home,
+                            color: Paint.brandColor,
+                            size: 40,),
                             onPressed: () {
                               Get.offNamed('/');
                             }),
@@ -81,18 +79,7 @@ class Home extends StatelessWidget {
                         fontSize: 25,
                       ),
                     )),
-                GridView.builder(
-                  shrinkWrap: true,
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 3,
-                    mainAxisSpacing: 10.0,
-                    crossAxisSpacing: 10.0,
-                  ),
-                  itemCount: meatbeefItems.length,
-                  itemBuilder: (context, index) {
-                    return MeatBeefGridView(meatbeefItems: meatbeefItems);
-                  },
-                ),
+                MeatBeefGridView(meatbeefItems: meatbeefItems),
                 Container(
                     padding: const EdgeInsets.only(top: 5),
                     child: const Text(
@@ -101,18 +88,7 @@ class Home extends StatelessWidget {
                         fontSize: 25,
                       ),
                     )),
-                GridView.builder(
-                  shrinkWrap: true,
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 3,
-                    mainAxisSpacing: 10.0,
-                    crossAxisSpacing: 10.0,
-                  ),
-                  itemCount: riceItems.length,
-                  itemBuilder: (context, index) {
-                    return RiceGridView(riceItems: riceItems);
-                  },
-                ),
+                RiceGridView(riceItems: riceItems),
                 Container(
                     padding: const EdgeInsets.only(top: 5),
                     child: const Text(
@@ -121,18 +97,7 @@ class Home extends StatelessWidget {
                         fontSize: 25,
                       ),
                     )),
-                GridView.builder(
-                  shrinkWrap: true,
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 3,
-                    mainAxisSpacing: 10.0,
-                    crossAxisSpacing: 10.0,
-                  ),
-                  itemCount: otherItems.length,
-                  itemBuilder: (context, index) {
-                    return OtherGridView(otherItems: otherItems);
-                  },
-                ),
+                OtherGridView(otherItems: otherItems),
               ],
             ),
           );

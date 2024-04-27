@@ -36,14 +36,32 @@ class BestItemsSwiper extends StatelessWidget {
                 context: context,
                 builder: (BuildContext context) {
                   return AlertDialog(
-                    title: Text(bestItems[index]['title']),
-                    content: Text(bestItems[index]['detail']),
+                    content: SizedBox(
+                      height: 430,
+                      child: Column(
+                        children: [
+                          Image.asset(bestItems[index]['gifPath'],
+                            fit: BoxFit.fitWidth,
+                          ),
+                          Text(bestItems[index]['title'],
+                            style: const TextStyle(
+                             fontSize: 50
+                           ),),
+                          Text(bestItems[index]['detail'],
+                          style: const TextStyle(
+                            fontSize: 30
+                          ),),
+                        ],
+                      ),
+                    ),
                     actions: [
                       TextButton(
                         onPressed: () {
                           Navigator.of(context).pop();
                         },
-                        child: Text('Close'),
+                        child: const Text('닫기',
+                        style: TextStyle(fontSize: 20,
+                        color: Paint.brandColor),)
                       ),
                     ],
                   );

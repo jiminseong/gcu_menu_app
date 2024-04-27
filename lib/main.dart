@@ -4,19 +4,22 @@ import 'package:gcu_menu_app/view/eng/eng_home.dart';
 import 'package:gcu_menu_app/view/eng/eng_onboarding.dart';
 import 'package:gcu_menu_app/view/kor/onboarding.dart';
 import 'package:gcu_menu_app/view/kor/home.dart';
-import 'package:gcu_menu_app/view/kor/detail.dart';
 import 'package:get/get.dart';
+import 'package:flutter/services.dart';
 
-void main() {
-  runApp(const MyApp());
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+  runApp( const MyApp());
 }
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive, overlays: []);
     return GetMaterialApp(
       title: '우리가게메뉴판',
       theme: ThemeData(fontFamily: 'ChosunCentennial'),
