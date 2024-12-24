@@ -1,16 +1,106 @@
-# gcu_menu_app
+# 프로젝트 JUST DO IT 2024
 
-"A new Flutter project."
+## 프로젝트 개요
+JUST DO IT 2024 프로젝트는 **효율적인 앱 개발**과 **사용자 경험 최적화**를 목표로 진행된 프로젝트입니다. 이 프로젝트는 부모님의 가게 운영을 돕기 위해 메뉴판 앱을 개발한 결과로 교내 공모전 JUST_DO_IT_2024에서 1위를 수상한 성과를 이루었습니다. 다국어 지원 및 모듈화된 UI 설계를 통해 가독성과 유지보수를 용이하게 하는 것을 중점으로 설계되었습니다.
+---
 
-## Getting Started
+## 시연 및 프로젝트 소개 영상
+프로젝트의 시연 및 소개 영상을 보시려면 다음 링크를 클릭하세요!
+[JUST DO IT 2024 시연 영상](https://youtube.com/watch?v=spgDpSugROI)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 폴더 구조
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+├── android
+├── assets
+├── ios
+├── lib
+│   ├── view
+│   │   ├── button
+│   │   │   ├── engButton.dart
+│   │   │   ├── originButton.dart
+│   │   │   ├── wifiButton.dart
+│   │   ├── eng
+│   │   │   ├── eng_detail.dart
+│   │   │   ├── eng_home.dart
+│   │   │   ├── eng_onboarding.dart
+│   │   ├── kor
+│   │       ├── menu
+│   │           ├── bestMenu.dart
+│   │           ├── meatbeafMenu.dart
+│   │           ├── otherMenu.dart
+│   │           ├── riceMenu.dart
+│   │       ├── home.dart
+│   │       ├── onboarding.dart
+│   ├── color.dart
+│   ├── main.dart
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 주요 폴더 및 파일 설명
+- **android, ios:** 플랫폼별 네이티브 코드.
+- **assets:** 이미지, 아이콘 등 정적 리소스.
+- **lib:** 핵심 코드가 위치한 폴더.
+  - **view/button:** 앱 내 버튼 컴포넌트 관련 코드.
+  - **view/eng:** 영어 버전의 화면 구성 코드.
+  - **view/kor:** 한국어 버전의 화면 구성 코드 및 메뉴 관리.
+  - **color.dart:** 프로젝트 전반에 사용되는 색상 정보 정의.
+  - **main.dart:** 앱 진입점.
+
+---
+
+## 프로젝트 주요 특징
+
+1. **다국어 지원**
+   - 한국어 및 영어 인터페이스 제공.
+   - `view/eng`와 `view/kor` 폴더를 통해 언어별 화면 구성.
+
+2. **모듈화된 컴포넌트**
+   - 버튼, 메뉴 등을 별도로 관리하여 재사용성과 유지보수성 강화.
+
+3. **사용자 중심 설계**
+   - Onboarding(온보딩) 화면으로 사용자 친화적인 앱 시작 경험 제공.
+
+4. **특별 기능**
+   - Wi-Fi QR 자동 연결 기능.
+   - 축산물 이력 조회 연결.
+   - 메뉴를 좌우 스와이프하여 간편하게 탐색.
+
+---
+
+## 프로젝트 진행 과정
+
+해당 프로젝트는 [결과 보고서](https://github.com/user-attachments/files/18238808/_JUST_DO_IT_2024_._.pdf)를 통해 주차별로 진행 상황을 기록하였으며, 주요 활동 내용은 다음과 같습니다:
+
+1. **UI/UX 디자인 및 설계**
+   - 부모님과의 소통을 통해 요구사항 분석.
+   - 피그마(Figma)를 활용하여 와이어프레임과 최종 디자인 완성.
+
+2. **기능 개발 및 테스트**
+   - Flutter 프레임워크 학습 및 구현.
+   - 각 버튼과 화면의 기능 구현.
+   - 프로토타입 개발 및 피드백 반영.
+
+3. **최종 통합 및 배포 준비**
+   - 코드 최적화 및 플랫폼별 테스트 완료.
+
+
+---
+
+## 프로젝트 성과 및 향후 계획
+- **성과**
+  - 교내 공모전 JUST_DO_IT_2024에서 1위 수상.
+  - 부모님께 실질적인 도움을 제공하며 높은 사용자 만족도 달성.
+
+- **향후 계획**
+  - 앱을 발전시켜 자영업자를 위한 **메뉴판 생성 플랫폼**으로 확장.
+  - 데이터 저장 및 사용자 경험 개선.
+  - 방학 중 V2 개발 및 출시 준비.
+
+---
+
+## 문의
+- 팀장: 지민성 (Flow 3팀)
+- 이메일: example@example.com
+
